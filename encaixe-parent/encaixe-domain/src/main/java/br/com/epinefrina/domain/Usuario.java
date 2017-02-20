@@ -46,7 +46,7 @@ public class Usuario extends DomainEncaixeOnline<Long> {
 		cadastrado = new Date();
 	}
 
-	public void comparaSenha(String senha, String contraSenha) {
+	public void validaSenha(String senha, String contraSenha) {
 		if (StringUtils.pathEquals(senha, contraSenha)) {
 			throw new IllegalArgumentException("Senhas não correspondem");
 		}
