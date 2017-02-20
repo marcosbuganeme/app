@@ -17,6 +17,12 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Ignorar arquivos .settings
+.settings/
+.project
+.classpath
+/target
+
 # =========================
 # Operating System Files
 # =========================
